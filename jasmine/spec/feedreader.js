@@ -22,7 +22,7 @@ $(function() {
          * page?
          */
         it('are defined', function() {
-            expect(allFeeds).toBeDefined(x);
+            expect(allFeeds).toBeDefined();
             expect(allFeeds.length).not.toBe(0);
         });
 
