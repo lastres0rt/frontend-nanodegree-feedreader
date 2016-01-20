@@ -98,16 +98,12 @@ $(function() {
         var entries;
 
         beforeEach(function(done) {
-            loadFeed(0, function(){
-                done();
-            });
+            loadFeed(0, done);
         });
 
-        it('should appear once the feed loads', function(done) {
-            entries = $('.feed').find('.entry');
-            expect(entries).toBeDefined();
+        it('should appear once the feed loads', function() {
+            entries = $('.feed .entry');
             expect(entries.length).not.toBe(0);
-            done();
         });
     });
 
@@ -123,9 +119,7 @@ $(function() {
         var entries, entry0Text, entry1Text;
 
         beforeEach(function(done) {
-            loadFeed(0, function(){
-                done();
-            });
+            loadFeed(0, done);
         });
 
         it('changes the displayed content', function(done) {
