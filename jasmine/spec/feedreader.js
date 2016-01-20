@@ -95,7 +95,7 @@ $(function() {
          * the use of Jasmine's beforeEach and asynchronous done() function.
          */
 
-        var entries;
+        var entries;ggit
 
         beforeEach(function(done) {
             loadFeed(0, function(){
