@@ -1,3 +1,5 @@
+![Part of the Udacity Front-End Web Development Nanodegree](https://img.shields.io/badge/Udacity-Front--End%20Web%20Developer%20Nanodegree-02b3e4.svg)
+
 # Jasmine Unit Testing
 
 This project is the last one of the Udacity Front-End Web Developer Nanodegree, meant to explore Test-Driven Development.
