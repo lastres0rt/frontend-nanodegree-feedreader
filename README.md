@@ -2,7 +2,7 @@
 
 # Jasmine Unit Testing
 
-This project is the last one of the Udacity Front-End Web Developer Nanodegree, meant to explore Test-Driven Development.
+This project is the last one of the Udacity Front-End Web Developer Nanodegree, meant to explore Test-Driven Development. The sample project for testing purposes is an RSS feed reader. 
 
 ## How to Open the App
 
